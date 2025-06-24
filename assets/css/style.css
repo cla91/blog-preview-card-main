@@ -1,0 +1,135 @@
+:root {
+    --accent-color: hsl(47, 88%, 63%);
+    --article-background-color: hsl(0, 0%, 100%);
+    --primary-color: hsl(0, 0%, 7%);
+    --secondary-color: hsl(0, 0%, 42%);
+    --font-family: "Figtree", sans-serif;
+    /* 500, 800 16px base */
+    --spacing-50: 0.4rem;
+    --spacing-100: 0.8rem;
+    --spacing-150: 1.2rem;
+    --spacing-300: 2.4rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    /* 10px base */
+    height: 100%;
+}
+
+body {
+    background-color: var(--accent-color);
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.4rem;
+    /* 14px */
+    line-height: 1.5;
+}
+
+main {
+    padding: var(--spacing-300);
+}
+
+.blog-post-preview-card {
+    background-color: var(--article-background-color);
+    padding: var(--spacing-300);
+    border-radius: 2rem;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0.8rem 0.8rem 0 #000000;
+    max-width: 38.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-300);
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-150);
+}
+
+.category {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 1.2rem;
+    /* 12px */
+    border-radius: 0.4rem;
+    padding: var(--spacing-50) var(--spacing-150);
+    background-color: var(--accent-color);
+    width: fit-content;
+}
+
+.publication-date {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    /* 12px */
+}
+
+.title a {
+    font-size: 2rem;
+    /* 20px */
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.2s ease-in-out;
+}
+
+.title a:hover,
+.title a:focus {
+    color: var(--accent-color);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-150);
+}
+
+.author-avatar {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+
+.author-name {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 1.4rem;
+    /* 12px */
+}
+
+.attribution {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: var(--spacing-100);
+}
+
+.attribution a {
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.attribution a:hover,
+.attribution a:focus {
+    color: var(--article-background-color);
+}
