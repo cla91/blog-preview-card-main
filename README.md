@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/blog-post-preview-with-semantic-html-P26ZErE-Bs)
 - Live Site URL: [live site URL here](https://cla91.github.io/blog-preview-card-main/)
 
 ## My process
