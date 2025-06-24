@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-I aimed for a clear and meaningful HTML structure using tags like <article>, <header>, <section>, <footer>, and <time>. I also ensured the <h2> was semantically correct while also functioning as a clickable link.
+I aimed for a clear and meaningful HTML structure using tags like article, header, section, footer, and time. I also ensured the h2 was semantically correct while also functioning as a clickable link.
 
 ### Continued development
 
