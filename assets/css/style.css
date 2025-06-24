@@ -35,7 +35,7 @@ body {
     color: var(--secondary-color);
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: clamp(1.4rem, 1.4rem + 0.2vw, 1.6rem);
     /* 14px */
     line-height: 1.5;
 }
@@ -71,7 +71,7 @@ main {
 .category {
     color: var(--primary-color);
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 1.2rem + 0.2vw, 1.4rem);
     /* 12px */
     border-radius: 0.4rem;
     padding: var(--spacing-50) var(--spacing-150);
@@ -81,12 +81,12 @@ main {
 
 .publication-date {
     color: var(--primary-color);
-    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 1.2rem + 0.2vw, 1.4rem);
     /* 12px */
 }
 
 .title a {
-    font-size: 2rem;
+    font-size: clamp(2rem, 2rem + 0.4vw, 2.4rem);
     /* 20px */
     font-weight: 800;
     text-decoration: none;
